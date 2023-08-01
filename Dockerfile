@@ -54,6 +54,7 @@ RUN set -ex \
         vim-enhanced \
         xz-devel \
         zlib-devel http-parser-devel json-c-devel libjwt-devel libyaml-devel \
+        docker \
     && yum clean all \
     && rm -rf /var/cache/yum
 
